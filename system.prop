@@ -10,9 +10,9 @@ DEVICE_PROVISIONED=1
 rild.libargs=-d /dev/smd0
 rild.libpath=/system/lib/libril-qc-qmi-1.so
 ro.vendor.extension_library=/system/lib/libqc-opt.so
-ro.telephony.default_network=9
-mobiledata.interfaces=rmnet0,rmnet1
-telephony.lteOnGsmDevice=1
+ro.telephony.default_network=4
+mobiledata.interfaces=rmnet0,rmnet1,rmnet2
+telephony.lteOnGsmDevice=0
 
 ro.cwm.forbid_format=/firmware_radio,/firmware_q6,/devlog
 ro.cwm.forbid_mount=/firmware_radio,/firmware_q6,/devlog
